@@ -1,11 +1,11 @@
 /* The gnupg.org standard stylesheet.  */
-  @import url(/share/site.css);
+@import url(/share/site.css);
 
 /* The gnupg site sets body margins to zero.  Because we don't have
    the table layout here we have to set our own margins for the body.  */
 body {
-    margin-left: 1em;
-    margin-right: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 /* Make the top header larger.  */
@@ -17,7 +17,3 @@ h1 {
 h1:first-letter {
   font-size: 120%;
 }
-
-
-
-
